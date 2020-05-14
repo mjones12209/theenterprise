@@ -1,0 +1,35 @@
+/* General */
+ul  {
+    list-style-type: none;
+}
+
+/* Classes */
+
+.main-nav {
+    display: flex;
+}
+
+
+.main-nav li {
+    background-color: black;
+    padding: 1%;
+    margin:.5%;
+}
+
+.main-nav li:first-child {
+    flex:none;
+    width:4em;
+    height:2em;
+    margin-right:50%;
+}
+
+.main-nav > li:nth-child(n+2) {
+    background-color: black;
+    flex:none;
+    width:4em;
+    height:.05em;
+}
+
+.main-nav-right{
+    right:0;
+}
