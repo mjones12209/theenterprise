@@ -10,6 +10,7 @@ h1 {
 h2 {
     font-family: 'Exo 2', sans-serif;
     color: white;
+    font-size: 3em;
     letter-spacing: 4px;
 }
 
@@ -100,6 +101,14 @@ a:hover {
     padding-left: 10%;
     padding-top: 10%;
   }
+
+  .text-overlay-2 {
+    position: absolute;
+margin-left: 50%;
+margin-top: 12%;
+    transform: translate(-50%, -50%);
+  }
+ 
   
 
 .main-section-two {
@@ -127,6 +136,7 @@ a:hover {
     display:flex;
     margin: 1% 0 0 0;
     justify-content: center;
+
 }
 
 .main-section-three span {
@@ -144,5 +154,21 @@ a:hover {
     color:white;
     height:6em;
 }
+
+.footer-text {
+
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-link:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
 
 
