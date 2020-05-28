@@ -97,32 +97,34 @@ li {
   padding-top: 10%;
 }
 
-.text-overlay-2 {
-  position: absolute;
-  margin-left: 50%;
-  margin-top: 12%;
-  transform: translate(-50%, -50%);
-}
-
+  .text-overlay-2 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 12%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  
+/* 
 .main-section-two {
-  font-family: "Karla", sans-serif;
-  display: flex;
-  margin-top: 1%;
+    font-family: 'Karla', sans-serif;
+    display:flex;
+    margin-top: 1%;
 }
 
 .main-section-two span {
-  flex-basis: 100%;
-  height: 15em;
-  background-color: black;
-  margin-right: 1%;
-}
+    flex-basis: 100%;
+    height:15em;
+    background-color: black;
+    margin-right: 1%;
+} */
 
 .main-call-action {
-  height: 15em;
-  margin-top: 1%;
-  margin-right: 1%;
-  color: white;
-  overflow: hidden;
+    height:15em;
+    margin-top: 1%;
+    margin-right: 1%; 
+    color:white;
+    overflow: hidden;
 }
 
 .main-section-three {
@@ -138,6 +140,38 @@ li {
   margin-right: 1%;
 
 }
+
+/* Products */
+
+
+.products-section {
+    font-family: 'Karla', sans-serif;
+    display:flex;
+    margin-top: 1%;
+}
+
+.products-section span {
+    flex-basis: 100%;
+    height:15em;
+    margin-right: 1%;
+    padding: .4% 0 0 .7%;
+}
+
+.products-section span:hover {
+    opacity: .5;
+}
+
+.products-section span > img {
+    height:210px;
+    width:413px;
+}
+
+.product-title {
+    text-align: center;
+}
+
+
+/* End Products */
 
 .footer-div {
   background: linear-gradient(45deg, black , #d537df);
