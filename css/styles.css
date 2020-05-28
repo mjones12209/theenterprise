@@ -171,6 +171,9 @@ margin-top: 12%;
     font-weight: bold;
   }
 
-/* .home-text {
-    text-decoration-style: solid, black;
-} */
+.homeTextBox {
+    height: 240px;
+    width: 900px;
+    background-color: black;
+    margin-left: 40px;
+}
