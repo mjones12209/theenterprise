@@ -1,10 +1,5 @@
 /* General */
 
-header {
-  width: 100%;
-  padding: 1%;
-}
-
 h1 {
   font-family: "Exo 2", sans-serif;
   font-size: 4.5em;
@@ -31,7 +26,6 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 a:hover {
@@ -40,51 +34,39 @@ a:hover {
   font-weight: bold;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  flex-basis: 10%;
-  justify-content: right;
-}
-
 li {
-  font-family: "Karla", sans-serif;
-  background-color: white;
-  padding: 1.5%;
-  margin-left: 5%;
-  text-align: right;
-  color: black;
   list-style-type: none;
-  flex-basis: 10%;
-}
+} 
 
 /* Classes */
 
 .main-nav {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  height: auto;
+  text-align: right;
+  margin:3% 3% 0 0;
+}
+
+.main-nav a{
+  margin-top: 30px;
+  padding:1%;
+  font-family: "Karla", sans-serif; 
 }
 
 .logo {
-  position: absolute;
-  margin-left: 2em;
-}
-
-.main-section-one {
-  color: white;
+ position: absolute;
+ left:1;
+ top:0;
 }
 
 .main-section-div {
   position: relative;
-  /* background-color: white; */
-  margin-right: 1%;
-  margin-top: 1%;
+  margin: 0 0 0 1%;
   padding: 1%;
   height: 25em;
   overflow: hidden;
+}
+
+.main-section-div > * {
+  color:white;
 }
 
 .slider {
@@ -134,7 +116,7 @@ li {
 }
 
 .icon-box {
-    width: 20%;
+  width: 20%;
   flex-basis: 80%;
   height: 15em;
   margin-right: 1%;
@@ -147,7 +129,8 @@ li {
 .products-section {
     font-family: 'Karla', sans-serif;
     display:flex;
-    margin-top: 1%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .products-section span {
