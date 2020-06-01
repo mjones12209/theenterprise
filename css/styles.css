@@ -109,12 +109,7 @@ li {
 .main-section-two {
     font-family: 'Karla', sans-serif;
     display:flex;
-<<<<<<< HEAD
-    margin-top: 1%;;
-    text-decoration-color: white;
-=======
     margin-top: 1%;
->>>>>>> 4d39c93b719d0a8f509cdc1983698870bac9ca56
 }
 
 .main-section-two span {
@@ -194,35 +189,6 @@ li {
   flex-direction: row;
 }
 
-<<<<<<< HEAD
-    padding-bottom: 30px;
-    margin-left: 50px;
-    margin-right: 80px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .footer-link:hover {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-
-.homeTextBox {
-    height: 240px;
-    width: 900px;
-    background-color: black;
-    margin-left: 5px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration-color: white;
-}
-
-.anchor1 {
-    margin-top: 20px;
-}
-=======
 .footer-link:hover {
   text-decoration: none;
   color: white;
@@ -234,4 +200,3 @@ li {
     margin-left: auto;
     margin-right: auto;
   }
->>>>>>> 51d16d067ec7372056aa4e5abcf03c4aec592f86
