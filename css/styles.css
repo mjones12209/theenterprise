@@ -76,9 +76,11 @@ header {
 
 .logo {
  position: absolute;
- left:0;
- top:0;
+ margin-left: 10px;
+top: 0px;
 }
+
+
 
 .main-section-div {
   position: relative;
@@ -293,24 +295,39 @@ header {
   flex-wrap: wrap;
 }
 
+/* Footer */
+
 .footer-div {
   background: linear-gradient(45deg, black , #d537df);
   margin: 1% 1% 0 1%;
   padding: 1%;
-  color: white;
   height: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
+
+.logo-white {
+margin-left: 6px;
+ bottom: 0px;
+ }
 
 .footer-text {
-  padding-bottom: 30px;
   margin-left: 50px;
-  margin-right: 80px;
-  display: flex;
-  flex-direction: row;
+  min-width: 50%;
+  flex-basis: auto;
 }
 
-.footer-link:hover {
+.footer-text a {
+  align-items: center;
+  padding-right: 5%;
+  font-family: "Karla", sans-serif; 
+  color: white;
   text-decoration: none;
+
+}
+
+.footer-text a:hover {
   color: white;
   font-weight: bold;
 }
