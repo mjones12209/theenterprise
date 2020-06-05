@@ -299,3 +299,8 @@ li {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .portrait {
+    border-radius: 25px;
+    margin: 20px;
+  }
