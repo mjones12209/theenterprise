@@ -136,6 +136,22 @@ li {
 
 }
 
+/* Contacts */
+
+.contacts-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 1%;
+}
+
+.contacts-wrapper span {
+  width: 500px;
+}
+
+/* Contacts */
+
 /* Products */
 
 
