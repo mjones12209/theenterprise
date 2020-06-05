@@ -39,7 +39,19 @@ li {
   list-style-type: none;
 } 
 
-/* Classes */
+/* Index */
+
+.poffers {
+  text-align: center;
+}
+
+.mission-statement {
+  text-align: center;
+}
+
+.mission-statement h2 {
+  color: black;
+}
 
 .main-nav {
   text-align: right;
@@ -85,6 +97,8 @@ li {
     margin-top: 12%;
     transform: translate(-50%, -50%);
   }
+
+  /* index */
  
   
 /* 
