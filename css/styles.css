@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   font-family: "Exo 2", sans-serif;
-  color: white;
+  /* color: white; */
   font-size: 3em;
   letter-spacing: 4px;
 }
@@ -32,6 +32,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #7e1e85;
 }
 
 a:hover {
@@ -57,6 +58,11 @@ header {
 
 .mission-statement {
   text-align: center;
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .mission-statement h2 {
@@ -110,22 +116,6 @@ top: 0px;
     transform: translate(-50%, -50%);
   }
 
-  /* index */
- 
-  
-/* 
-.main-section-two {
-    font-family: 'Karla', sans-serif;
-    display:flex;
-    margin-top: 1%;
-}
-
-.main-section-two span {
-    flex-basis: 100%;
-    height:15em;
-    background-color: black;
-    margin-right: 1%;
-} */
 
 .main-call-action {
     height:15em;
@@ -136,16 +126,15 @@ top: 0px;
 
 .main-section-three {
   display: flex;
-  margin: 1% 0 0 0;
+  margin: 5% 0 2% 0;
   justify-content: center;
 }
 
 .icon-box {
   width: 20%;
-  flex-basis: 80%;
+  flex-basis: 100%;
   height: 15em;
   margin-right: 1%;
-
 }
 
 /* Contacts */
@@ -162,16 +151,21 @@ top: 0px;
   width: 500px;
 }
 
-/* Contacts */
+
+.contacts-wrapper img {
+  overflow: hidden;
+}
+
 
 /* Products */
 
 
 .products-section {
     font-family: 'Karla', sans-serif;
-    display:flex;
+    display: flex;
     margin-top: 4%;
     margin-bottom: 4%;
+    
 }
 
 .products-section span {
@@ -187,11 +181,12 @@ top: 0px;
 
 .products-section span > img {
     height:210px;
-    width:413px;
+    width:auto;
 }
 
 .product-title {
     text-align: center;
+    margin-top: 10px;
 }
 
 
@@ -208,8 +203,8 @@ top: 0px;
 }
 
 .slideshow-container img {
-  height:500px;
-  width:500px;
+  height:300px;
+  width:auto;
 }
 
 .mySlides {
@@ -295,6 +290,20 @@ top: 0px;
   flex-wrap: wrap;
 }
 
+/* Contact  */
+
+.text-box-2 {
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+/* About */
+.text-box-3 {
+  width: 100%;
+padding: 5%;
+}
+
 /* Footer */
 
 .footer-div {
@@ -332,8 +341,13 @@ margin-left: 6px;
   font-weight: bold;
 }
 
+/* for centering images */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .white-text {
+    color: white;
   }
