@@ -20,6 +20,11 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-family: "Karla", sans-serif;
+  margin-bottom: 1%;
+}
+
 p {
   font-family: "Karla", sans-serif;
   margin-top: 1%;
@@ -38,6 +43,11 @@ a:hover {
 li {
   list-style-type: none;
 } 
+
+header {
+  height: 25px;
+  margin-bottom: 10px;
+}
 
 /* Index */
 
@@ -271,6 +281,17 @@ li {
 }
 
 /* End Javascript Slideshow */
+
+/* Locations */
+
+.text-box {
+  width: 100%;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .footer-div {
   background: linear-gradient(45deg, black , #d537df);
