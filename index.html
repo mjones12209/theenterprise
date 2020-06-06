@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./css/styles.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
-    <script src="/js/slideshow.js"></script>
     <title>The Enterprise</title>
 </head>
 <body>
@@ -106,15 +105,15 @@
                     <p class="numberText">3 / 3</p>
                 </div>
 
-                <a href="" class="prev" onclick="plusSlides(-1)"></a>
-                <a href="" class="next" onclick="plusSlides(1)"></a>
+                <!-- <a href="" class="prev" onclick="plusSlides(-1)"></a> -->
+                <!-- <a href="" class="next" onclick="plusSlides(1)"></a> -->
             </div>
             <br>
 
             <div style="text-align: center;">
-             <span class="dot" onclick="currentSlide(1)"></span>
-             <span class="dot" onclick="currentSlide(2)"></span>
-             <span class="dot" onclick="currentSlide(3)"></span>
+             <span class="dot" onclick="showSlides(1)"></span>
+             <span class="dot" onclick="showSlides(2)"></span>
+             <span class="dot" onclick="showSlides(3)"></span>
             </div>
         </main> 
 
@@ -136,4 +135,5 @@
             </div>
         </footer>
 </body>
+<script src="/js/slideshow.js"></script>
 </html>
