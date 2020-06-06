@@ -151,8 +151,9 @@ top: 0px;
   width: 500px;
 }
 
-
-.contacts-wrapper img {
+.about-img {
+  width: 400px;
+  height: 350px;
   overflow: hidden;
 }
 
