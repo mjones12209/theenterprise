@@ -1,4 +1,4 @@
-/* General */
+/* CSS for HTML Elements */
 
 h1 {
   font-family: "Exo 2", sans-serif;
@@ -33,6 +33,7 @@ p {
 a {
   text-decoration: none;
   color: #7e1e85;
+  font-family: "Karla", sans-serif;
 }
 
 a:hover {
@@ -43,12 +44,32 @@ a:hover {
 
 li {
   list-style-type: none;
-} 
+}
 
 header {
   height: 25px;
   margin-bottom: 10px;
 }
+
+/* Header CSS*/
+
+.logo {
+  position: absolute;
+  margin-left: 10px;
+  top: 0px;
+}
+
+.main-nav {
+  text-align: right;
+  margin: 3% 3% 0 0;
+}
+
+.main-nav a {
+  margin-top: 30px;
+  padding: 1%;
+}
+
+
 
 /* Index */
 
@@ -62,31 +83,9 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.mission-statement h2 {
-  color: black;
-}
-
-.main-nav {
-  text-align: right;
-  margin:3% 3% 0 0;
-}
-
-.main-nav a{
-  margin-top: 30px;
-  padding:1%;
-  font-family: "Karla", sans-serif; 
-}
-
-.logo {
- position: absolute;
- margin-left: 10px;
-top: 0px;
-}
-
-
+/* Banner image CSS */
 
 .main-section-div {
   position: relative;
@@ -95,8 +94,8 @@ top: 0px;
   overflow: hidden;
 }
 
-.main-section-div > * {
-  color:white;
+.main-section-div>* {
+  color: white;
 }
 
 .slider {
@@ -109,20 +108,23 @@ top: 0px;
   padding-top: 10%;
 }
 
-  .text-overlay-2 {
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 12%;
-    transform: translate(-50%, -50%);
-  }
+/* Donate banner */
 
+.text-overlay-2 {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 12%;
+  transform: translate(-50%, -50%);
+}
 
 .main-call-action {
-    height:15em;
-    margin: 1% 1% 0 1%;
-    color:white;
-    overflow: hidden;
+  height: 15em;
+  margin: 1% 1% 0 1%;
+  color: white;
+  overflow: hidden;
 }
+
+/* Index icon links */
 
 .main-section-three {
   display: flex;
@@ -136,6 +138,108 @@ top: 0px;
   height: 15em;
   margin-right: 1%;
 }
+
+/* Javascript Slideshow */
+
+* {
+  box-sizing: border-box
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.slideshow-container img {
+  height: 300px;
+  width: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding:16px;
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.text {
+  text-align: center;
+}
+
+.numberText {
+  text-align: center;
+
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* End Javascript Slideshow */
 
 /* Contacts */
 
@@ -157,128 +261,49 @@ top: 0px;
   overflow: hidden;
 }
 
+/* About */
+.text-box-3 {
+  width: 100%;
+  padding: 5%;
+}
+
 
 /* Products */
 
 
 .products-section {
-    font-family: 'Karla', sans-serif;
-    display: flex;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  margin-top: 4%;
+  margin-bottom: 4%;
+
 }
 
 .products-section span {
-    flex-basis: 100%;
-    height:15em;
-    margin-right: 1%;
-    padding: .4% 0 0 .7%;
+  flex-basis: 100%;
+  height: 15em;
+  margin-right: 1%;
+  padding: .4% 0 0 .7%;
 }
 
 .products-section span:hover {
-    opacity: .5;
+  opacity: .5;
 }
 
-.products-section span > img {
-    height:210px;
-    width:auto;
+.products-section span>img {
+  height: 210px;
+  width: auto;
 }
 
 .product-title {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 
 /* End Products */
 
-/* Javascript Slideshow */
 
-* {box-sizing:border-box}
-
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  text-align: center;
-}
-
-.slideshow-container img {
-  height:300px;
-  width:auto;
-}
-
-.mySlides {
-  display: none;
-}
-/* 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding:16px;
-  color:white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-} */
-
-.next {
-  right:0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-
-}
-
-.text {
-  text-align: center; 
-}
-
-.numberText {
-  text-align: center;
-
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* End Javascript Slideshow */
 
 /* Locations */
 
@@ -299,16 +324,10 @@ top: 0px;
   margin-top: 25px;
 }
 
-/* About */
-.text-box-3 {
-  width: 100%;
-padding: 5%;
-}
-
 /* Footer */
 
 .footer-div {
-  background: linear-gradient(45deg, black , #d537df);
+  background: linear-gradient(45deg, black, #d537df);
   margin: 1% 1% 0 1%;
   padding: 1%;
   height: 6em;
@@ -318,9 +337,9 @@ padding: 5%;
 }
 
 .logo-white {
-margin-left: 6px;
- bottom: 0px;
- }
+  margin-left: 6px;
+  bottom: 0px;
+}
 
 .footer-text {
   margin-left: 50px;
@@ -331,7 +350,7 @@ margin-left: 6px;
 .footer-text a {
   align-items: center;
   padding-right: 5%;
-  font-family: "Karla", sans-serif; 
+  font-family: "Karla", sans-serif;
   color: white;
   text-decoration: none;
 
@@ -342,13 +361,13 @@ margin-left: 6px;
   font-weight: bold;
 }
 
-/* for centering images */
+/* Universal formatting CSS */
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .white-text {
-    color: white;
-  }
+.white-text {
+  color: white;
+}
